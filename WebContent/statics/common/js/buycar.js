@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+$(function(){
+	 totalMoney()
+	 $(".leftNav").hide();
+		$(".nav").hover(function(){						   
+			$(".leftNav").show();
+		},function(){
+			$(".leftNav").hide();
+		});
+	});

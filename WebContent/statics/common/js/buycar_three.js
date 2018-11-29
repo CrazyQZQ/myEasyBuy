@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+ $(function(){
+	  $(".warning2").hide();
+	 $(".leftNav").hide();
+		$(".nav").hover(function(){						   
+			$(".leftNav").show();
+		},function(){
+			$(".leftNav").hide();
+		});
+	});
